@@ -154,7 +154,7 @@ export const ProductPageComponent: FC<Props> = ({
 
   return (
     <main className='grid flex-1 items-start gap-4 p-4 sm:px-6 sm:py-0 md:gap-8'>
-      <div className='container mx-auto p-4'>
+      
         <div className='flex justify-between items-center mb-4'>
           <h1 className='text-2xl font-bold'>Administrador de productos</h1>
           <Button
@@ -215,7 +215,7 @@ export const ProductPageComponent: FC<Props> = ({
             </DialogFooter>
           </DialogContent>
         </Dialog>
-      </div>
+      
     </main>
   );
 };

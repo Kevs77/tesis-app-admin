@@ -106,8 +106,9 @@ export default function FormularioDetalleClient({ formulario }: { formulario: an
 
           <section>
             <h2 className="text-2xl text-center font-bold text-blue-800 border-b pb-2">SERVICIOS ASOCIADOS</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 border border-gray-300 p-4 rounded">
-              <div className="space-y-6 pr-3 border-r border-gray-300">
+            <div className="flex flex-col md:flex-row gap-6 border border-gray-300 p-4 rounded">
+              <div className="flex-1 space-y-6 md:pr-3 md:border-r border-gray-300">
+
                 {servicio_internet && (
                   <div>
                     <h3 className="font-semibold text-blue-700">Servicio de Internet</h3>
@@ -134,7 +135,7 @@ export default function FormularioDetalleClient({ formulario }: { formulario: an
                 )}
               </div>
 
-              <div className="space-y-6 pl-3">
+                <div className="flex-1 space-y-6 md:pl-3">
                 {servicio_internet_movil && (
                   <div>
                     <h3 className="font-semibold text-blue-700">Servicio de Internet Móvil</h3>

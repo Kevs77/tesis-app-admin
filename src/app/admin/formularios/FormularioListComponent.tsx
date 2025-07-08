@@ -5,7 +5,8 @@ export default function FormularioListComponent({ formularios }: { formularios: 
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">Administrador de formularios</h1>
-      <table className="min-w-full bg-gray-900 text-white">
+      <section className="w-full overflow-x-auto">
+      <table className="w-full min-w-[600px] bg-gray-900 text-white">
         <thead>
           <tr className="text-left border-b border-gray-700">
             <th className="py-2 px-4">Nombre</th>
@@ -35,6 +36,7 @@ export default function FormularioListComponent({ formularios }: { formularios: 
           ))}
         </tbody>
       </table>
+      </section>
     </div>
   )
 }

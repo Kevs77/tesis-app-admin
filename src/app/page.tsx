@@ -126,11 +126,11 @@ export default function Home() {
                 transition={{ duration: 0.6, ease: 'easeOut' }}
               >
                 <Image
-                  width={1331}
-                  height={888}
                   src='/app-pics.png'
                   alt='GadgetApp Screenshot'
-                  className='rounded-3xl object-cover shadow-2xl mx-auto h-[500px] w-[250px]'
+                  width={300}
+                  height={600}
+                  className='rounded-3xl object-cover shadow-2xl mx-auto w-full max-w-[280px] h-auto'
                 />
                 <Badge className='absolute top-4 right-4 bg-[#1bc464] text-white'>
                   Nueva versión
